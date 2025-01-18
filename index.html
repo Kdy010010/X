@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>파일 업로드</title>
+</head>
+<body>
+  <h1>파일 업로드</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <label for="email">이메일 주소:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="file">파일 업로드:</label><br>
+    <input type="file" id="file" name="file" required><br><br>
+    <button type="submit">전송</button>
+  </form>
+</body>
+</html>
